@@ -1,5 +1,5 @@
 import unittest
-from calculate_change import calculate_change
+from main import *
 
 class TestCalculateChange(unittest.TestCase):
     def test_exact_ten_dollars(self):
