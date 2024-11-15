@@ -1,3 +1,6 @@
+# This function ensures the user enters a valid numeric input.
+# It repeatedly prompts the user until a positive number is provided.
+# Invalid inputs, such as letters or negative numbers, trigger error messages.
 def get_valid_input():
     while True:
         user_input = input("Enter an amount (e.g., 19.99): ")
